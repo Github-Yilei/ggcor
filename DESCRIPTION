@@ -1,0 +1,119 @@
+Package: ggcor
+Type: Package
+Title: Extended tools for correlation analysis and visualization
+Version: 0.9.8.1
+Authors@R: c(
+    person("Houyun", "Huang", email = "houyunhuang@163.com", role = c("aut", "cre")),
+    person("Lei", "Zhou", email = "zhoulei@scau.edu.cn", role = "aut"),
+    person("Jian", "Chen", email = "cafchenjian@163.com", role = "aut"),
+    person("Taiyun", "Wei", email = "weitaiyun@gmail.com", role = "aut"))
+Maintainer: Houyun Huang <houyunhuang@163.com>
+Description: The 'ggcor' package can be used to visualize simply and directly a
+    correlation matrix based on 'ggplot2'. It provides a solution for reordering the 
+    correlation matrix, displaying the different significance level on the plot and 
+    other details. The most important parts, it also provides a graphical display of 
+    any correlation analysis and their combination (such as Mantel test, Partial 
+    correlation analysis, and so on).
+License: GPL-2
+URL: https://github.com/houyunhuang/ggcor
+BugReports: https://github.com/houyunhuang/ggcor/issues
+LazyData: TRUE
+Encoding: UTF-8
+Depends:
+    R (>= 3.5.0)
+Imports:
+    dplyr,
+    ggplot2 (>= 3.0.0),
+    graphics,
+    grid,
+    ggnewscale,
+    igraph,
+    patchwork,
+    purrr,
+    RColorBrewer,
+    rlang,
+    scales,
+    stats,
+    tibble,
+    tidygraph,
+    utils
+Suggests:
+    ade4,
+    ambient,
+    dendextend,
+    ggimage,
+    ggraph,
+    ggtree,
+    knitr,
+    latex2exp,
+    relaimpo,
+    rfPermute,
+    rmarkdown,
+    picante,
+    vegan,
+    WGCNA
+RoxygenNote: 7.0.2
+VignetteBuilder: knitr
+Collate: 
+    'aaa.R'
+    'annotation.R'
+    'anno-circular.R'
+    'as-cor-network.R'
+    'as-cor-tbl.R'
+    'as-igraph.R'
+    'as-tbl-graph.R'
+    'calc-relimp.R'
+    'cor-network.R'
+    'cor-tbl.R'
+    'correlate.R'
+    'deprecated.R'
+    'display-cor.R'
+    'dplot-utils.R'
+    'dplyr.R'
+    'draw-key.R'
+    'expand-axis.R'
+    'export-cor-network.R'
+    'fortify-cor.R'
+    'geom-circle2.R'
+    'geom-colour.R'
+    'geom-conf.R'
+    'geom-cross.R'
+    'geom-curve2.R'
+    'geom-diag-label.R'
+    'geom-ellipse2.R'
+    'geom-mark.R'
+    'geom-num.R'
+    'geom-panel-grid.R'
+    'geom-pie2.R'
+    'geom-ring.R'
+    'geom-segment2.R'
+    'geom-shade.R'
+    'geom-square.R'
+    'geom-star.R'
+    'get-data.R'
+    'get-order.R'
+    'ggcor-packages.R'
+    'ggcor.R'
+    'liner-trans.R'
+    'link-tbl.R'
+    'matrix-order.R'
+    'mantel-test.R'
+    'methods-ggplotadd.R'
+    'position-shift.R'
+    'procrutes-test.R'
+    'qheatmap.R'
+    'quickcor.R'
+    'rand-correlate.R'
+    'random-forest.R'
+    'reexport.R'
+    'remove-axis.R'
+    'scale-gradient2n.R'
+    'scale-radius.R'
+    'set-scale.R'
+    'theme-cor.R'
+    'utils-circular.R'
+    'utils-colour-pal.R'
+    'utils-cor-tbl.R'
+    'utils-dendrogram.R'
+    'utils.R'
+    'zzz.R'
