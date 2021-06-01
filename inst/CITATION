@@ -1,0 +1,11 @@
+citHeader("To cite ggcor in publications use:")
+
+citEntry(
+  entry    = "manual",
+  title    = paste("ggcor:", meta$Title),
+  author   = "Houyun Huang and Lei Zhou and Jian Chen and Taiyun Wei",
+  year     = "2020",
+  note     = "R package version 0.9.7",
+  url      = meta$URL,
+  textVersion = "Houyun Huang, Lei Zhou, Jian Chen and Taiyun Wei(2020). ggcor: Extended tools for correlation analysis and visualization. R package version 0.9.7."
+)
