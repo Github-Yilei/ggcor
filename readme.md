@@ -6,12 +6,9 @@ visualize a correlation matrix quickly.
 
 ## Installation
 
-Now `ggcor` is not on cran, You can install the development version of
-ggcor from [GitHub](https://github.com/) with:
-
 ``` r
 # install.packages("devtools")
-devtools::install_github("houyunhuang/ggcor")
+devtools::install_github("Github-Yilei/ggcor")
 ```
 
 ## Correlation plot
